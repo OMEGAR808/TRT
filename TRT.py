@@ -570,7 +570,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua ='Dalvik/2.1.0 (Linux; U; Android 8; SM-G967W Build/RP1A.865404.794)[FBAN/FB4A;FBAV/315.0.0.5.19;FBBV/19993902;FBDM/{density=1.0,width=1280,height=3840};FBLC/es_ES;FBCR/Zong;FBMF/Samsung;FBBD/Samsung;FBPN/com.facebook.orca;FBDV/SM-G967W;FBSV/6.4.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                        ua ='Dalvik/2.1.0 (Linux; U; Android 13; SM-W782A Build/PQ3A.538164.522)[FBAN/FB4A;FBAV/387.0.0.36.139;FBBV/29323332;FBDM/{density=3.0,width=1440,height=1440};FBLC/en_US;FBCR/Jazz;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.lite;FBDV/SM-W782A;FBSV/4.0.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
