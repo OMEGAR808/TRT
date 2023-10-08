@@ -570,7 +570,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua = 'Davik/2.1.0 (Linux; U; Android 8.0.1; SM-J510FN Build/TP1A.220905.001) [FBAN/FB4A;FBAV/338.0.0.22.72;FBBV/37183986;FBDM/{density=1.5,width=1080,height=1080};FBLC/en_PK;FBRV/82327371;FBCR/Nepal_Telecom;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-J510FN;FBSV/5.0.3;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                        ua = 'Davik/2.1.0 (Linux; U; Android 13; SM-A037U Build/TP1A.220624.014; wv) [FBAN/FB4A;FBAV/386.0.0.30.120;FBBV/24251384;FBDM/{density=1.5,width=720,height=1080};FBLC/en_GB;FBRV/98372226;FBCR/DOCTYPE;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.katana;FBDV/SM-A037U;FBSV/12.3.4;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
