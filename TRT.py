@@ -102,7 +102,7 @@ for agent in range(10000):
         l='Mobile Safari/533.1'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
-usa=[]
+uas=[]
 for agent in range(10000):
         aa='Mozilla/5.0 (Linux; Android'
         b=random.choice(['6','7','8','9','10','11','12'])
@@ -586,7 +586,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua = random.choice(usa)
+                        ua = random.choice(uas)
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
