@@ -586,7 +586,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua = '2a01:c22:858f:f300:f404:aea6:6b04:fc6a Mozilla/5.0 (iPhone; CPU iPhone OS 16_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1'
+                        ua = 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 LightSpeed [FBAN/MessengerLiteForiOS;FBAV/428.0.0.41.117;FBBV/521175719;FBDV/iPhone13,2;FBMD/iPhone;FBSN/iOS;FBSV/16.6.1;FBSS/3;FBCR/;FBID/phone;FBLC/it;FBOP/0]'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
