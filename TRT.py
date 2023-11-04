@@ -591,7 +591,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua = 'Dalvik/2.1.0 (Linux; U; Android 7; SM-G998N Build/QKQ1.232973.196) [FBAN/EMA;FBBV/300742695;FBAV/257.0.0.10.171;FBDV/GT-S7582;FBLC/en_US;FBNG/3G;FBMNT/METERED;FBDM/{density=1.5}]'
+                        ua = 'Mozilla/5.0 (Linux; Android 11; SM-A037F Build/RP1A.200720.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.5845.51 Mobile Safari/537.36'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
