@@ -72,6 +72,7 @@ for agent in range(10000):
 	l='Mobile Safari/533.1'
 	fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
 	ugen.append(fullagnt)
+zomir = random.choice(['218','219','220','221','222','223','224','225','226','227','217','216','215','214','213','210','209','229','119','120','121','122','123','124'])
 rug=[]
 for nt in range(10000):
 	rr=random.randint
@@ -589,7 +590,6 @@ def api2(ids,names,passlist):
                         fban = 'FB4A'
                         fbpn = 'com.facebook.katana'
                         en = random.choice(['en_US','en_GB'])
-			zomir = random.choice(['218','219','220','221','222','223','224','225','226','227','217','216','215','214','213','210','209','229','119','120','121','122','123','124'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
                         ua = '[FBAN/FB4A;FBAV/"+zomir+".0.0.6.119;FBBV/30034644;FBDM/{density=3.02,width=720,height=1544};FBLC/en_US;FBCR/ZONG;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.katana;FBDV/"+cph+";FBSV/12;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
